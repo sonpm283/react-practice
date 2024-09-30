@@ -1,0 +1,22 @@
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-table thead {
+  border-bottom: 1px solid #dee2e6;
+}
+.data-table th {
+  text-align: left;
+  padding: 16px;
+}
+.data-table th,
+.data-table td {
+  padding: 16px;
+}
+.data-table tbody tr {
+  cursor: pointer;
+}
+.data-table tr:hover,
+.data-table thead:hover {
+  background-color: rgba(36, 105, 92, 0.1);
+}
