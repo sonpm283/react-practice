@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import logo from '/images/logo.png'
 import './main-navigation.styles.css'
 
 class MainNavigation extends Component {
@@ -8,7 +9,7 @@ class MainNavigation extends Component {
     return (
       <section className="main-nav">
         <header>
-          <img src="/images/logo.png" />
+          <img src={logo} />
           <h2>Quản Trị Nhân Sự</h2>
         </header>
         <ul className="menu-list">
